@@ -48,7 +48,8 @@ header {
 
 section {
     width: 100%;
-    padding: 0 !important; 
+    align-items: center;
+    padding: 0 !important;
     justify-content: space-between !important;
 }
 
@@ -83,13 +84,18 @@ button {
     box-shadow: 0 0 19px 1px rgb(0 0 0 / 40%);
     min-width: 305px;
     border-radius: 4px;
+    max-height: 335px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 h3 {
     color: black;
     text-align: center;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 400;
+    margin: 0 0 15px;
 }
 
 form {
