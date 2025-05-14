@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
     margin: 0;
     display: grid;
@@ -10,7 +12,7 @@ body {
 .font {
     color: white;
     font-size: 17px;
-    font-family: system-ui;
+    font-family: "Montserrat", system-ui;
 }
 
 a {
@@ -46,4 +48,26 @@ header {
 
 section {
     width: 100%;
+}
+
+button {
+    font-family: "Montserrat", system-ui;
+}
+
+.sectionButton {
+    height: 40px;
+    width: 180px;
+    border-radius: 20px;
+    color: white;
+    border: none;
+}
+
+.ctaButton {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    background: rgb(62 203 75);
+}
+
+.registerButton {
+    background: rgb(47 131 255)  
 }
